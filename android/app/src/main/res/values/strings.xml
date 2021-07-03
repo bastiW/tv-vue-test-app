@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">tvvuetestapp</string>
+    <string name="title_activity_main">tvvuetestapp</string>
+    <string name="package_name">tvvuetestapp.com</string>
+    <string name="custom_url_scheme">tvvuetestapp.com</string>
+</resources>

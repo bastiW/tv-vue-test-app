@@ -1,0 +1,6 @@
+{
+	"appId": "tvvuetestapp.com",
+	"appName": "tvvuetestapp",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
