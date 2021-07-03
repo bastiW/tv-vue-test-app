@@ -1,0 +1,70 @@
+{
+  "name": "tv-vue-test-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "dev:remotedev": "vite --mode remotedev",
+    "build:remotedev": "vite build --mode remotedev",
+    "serve": "vite preview",
+    "build:prod": "vue-cli-service build --mode prod",
+    "build:dev": "vue-cli-service build --mode dev",
+    "build:homedev": "vue-cli-service build --mode homedev",
+    "lint": "vue-cli-service lint",
+    "tizen:prod": "call buildtizen.bat prod",
+    "tizen:dev": "call buildtizen.bat dev",
+    "tizen:homedev": "call buildtizen.bat homedev"
+  },
+  "dependencies": {
+    "@types/tizen-common-web": "^1.0.3",
+    "@types/tizen-tv-webapis": "^2.0.0",
+    "boxicons": "^2.0.7",
+    "core-js": "^3.7.0",
+    "dayjs": "^1.10.2",
+    "element-scroll-polyfill": "^1.0.1",
+    "localforage": "^1.9.0",
+    "sass": "^1.32.2",
+    "sass-loader": "^10.1.0",
+    "tizen-tv-webapis": "^2.0.0",
+    "vue": "^3.0.7",
+    "vue-router": "^4.0.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vitejs/plugin-legacy": "^1.4.0",
+    "@vitejs/plugin-vue": "^1.2.2",
+    "@vue/compiler-sfc": "^3.0.5",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0-0",
+    "typescript": "~4.1.3",
+    "vite": "^2.3.4",
+    "vue-tsc": "^0.0.24"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-recommended",
+      "eslint:recommended",
+      "@vue/typescript"
+    ],
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser"
+    },
+    "rules": {
+      "no-unused-vars": "off",
+      "no-debugger": "off"
+    }
+  },
+  "browserslist": [
+    "safari > 5",
+    "chrome > 46"
+  ],
+  "resolutions": {
+    "core-js": "3.7.0"
+  }
+}
